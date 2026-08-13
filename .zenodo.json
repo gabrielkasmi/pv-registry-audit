@@ -1,0 +1,30 @@
+{
+  "title": "Analysis code for: auditing photovoltaic registries with remote sensing",
+  "description": "Full analysis code for a national audit of rooftop photovoltaic registries by remote sensing: detection evaluation against 31,853 manual annotations, Bayesian correction of the detected capacity, comparison against two official registries with a specification battery, and the attribution of the flagged discrepancies to observable mechanisms. The replication dataset is deposited separately; see the repository README for what reproduces from it and what does not.",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Kasmi, Gabriel",
+      "affiliation": "Mines Paris-PSL",
+      "orcid": "0000-0002-7774-4302"
+    }
+  ],
+  "keywords": [
+    "remote sensing",
+    "bayesian inference",
+    "measurement error",
+    "official statistics",
+    "photovoltaics",
+    "registry audit",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21921771",
+      "relation": "requires",
+      "scheme": "doi"
+    }
+  ]
+}

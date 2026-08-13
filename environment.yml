@@ -1,0 +1,29 @@
+# Environment used to produce the published results.
+#
+#     conda env create -f environment.yml
+#     conda activate pv-registry-audit
+#
+# Versions are pinned to what the paper was run on. The analysis is not
+# sensitive to minor version drift, with one exception worth knowing: the
+# geospatial stack (geopandas, shapely, pyproj) changes projection behaviour
+# between majors, and the maps are built in Lambert-93.
+name: pv-registry-audit
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - numpy=2.2
+  - pandas=2.3
+  - scipy=1.15
+  - geopandas=1.1
+  - shapely=2.1
+  - matplotlib=3.10
+  - statsmodels=0.14
+  - pyarrow=25.0
+  - jupyterlab
+  - pip
+  - pip:
+      # The statistical core of the audit, also released standalone.
+      - bayesian-pv-census>=0.1.0

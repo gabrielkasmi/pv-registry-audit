@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "Analysis code for: auditing photovoltaic registries with remote sensing"
+message: "If you use this code, please cite the paper it implements."
+type: software
+authors:
+  - family-names: Kasmi
+    given-names: Gabriel
+    email: gabriel.kasmi@minesparis.psl.eu
+    orcid: "https://orcid.org/0000-0002-7774-4302"
+    affiliation: "Mines Paris-PSL"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/gabrielkasmi/pv-registry-audit"
+abstract: >-
+  Full analysis code for a national audit of rooftop photovoltaic registries by
+  remote sensing: detection evaluation against 31,853 manual annotations,
+  Bayesian correction of the detected capacity, comparison against two official
+  registries with a specification battery, and the attribution of the flagged
+  discrepancies to observable mechanisms. The replication dataset is deposited
+  separately.
+references:
+  - type: article
+    title: "Auditing photovoltaic registries with remote sensing"
+    authors:
+      - family-names: Kasmi
+        given-names: Gabriel
+    journal: Joule
+    year: 2026
+  - type: software
+    title: "bayesian-pv-census"
+    authors:
+      - family-names: Kasmi
+        given-names: Gabriel
+    doi: "10.5281/zenodo.21921771"

@@ -1,0 +1,26 @@
+# The replication dataset is distributed through Zenodo, not through git: 546 MB,
+# and versioning binary geospatial files in git helps nobody.
+#
+# Note the form used here. A bare `data/` line would exclude the directory
+# itself, and git cannot re-include a file whose parent directory is excluded,
+# so the manifest would silently never be committed. Excluding the *contents*
+# and then re-including one file is the form that works.
+data/*
+!data/MANIFEST.csv
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.bak
+
+# Notebook by-products written beside the notebook rather than into data/
+code/**/to_label.geojson
+code/**/to_relabel_*.geojson
