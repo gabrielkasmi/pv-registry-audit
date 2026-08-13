@@ -1,6 +1,6 @@
 # Auditing photovoltaic registries with remote sensing
 
-Code and data for Kasmi et al. (2026), *Joule*.
+Code and data for Nationally Consistent, Locally Incomplete: A Bayesian Remote-Sensing Audit of Rooftop Photovoltaic Registries (Kasmi et al. (2026), *Pending publication*)
 
 Nationwide aerial imagery is processed by a detection pipeline, the detections
 are corrected for the detector's own precision and recall, and the corrected
