@@ -170,6 +170,14 @@ def main():
     out.to_csv(args.output, index=False)
     print(f"wrote {args.output}")
 
+    # rte_minimal.json wraps this table. Left alone it would keep serving the
+    # values just withheld, which is how a control gets voided through a file
+    # nobody thought to look at.
+    if args.output == paths.RTE_CUTOFFS:
+        import build_rte_minimal
+        r = build_rte_minimal.build()
+        print(f"rebuilt rte_minimal.json ({r['withheld']} withheld cells carried through)")
+
 
 if __name__ == "__main__":
     main()
