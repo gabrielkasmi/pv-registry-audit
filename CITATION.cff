@@ -8,9 +8,11 @@ authors:
     email: gabriel.kasmi@minesparis.psl.eu
     orcid: "https://orcid.org/0000-0002-7774-4302"
     affiliation: "Mines Paris-PSL"
-version: "1.0.0"
+version: "1.0.1"
+date-released: "2026-09-11"
 license: MIT
 repository-code: "https://github.com/gabrielkasmi/pv-registry-audit"
+doi: "10.5281/zenodo.21925115"
 abstract: >-
   Full analysis code for a national audit of rooftop photovoltaic registries by
   remote sensing: detection evaluation against 31,853 manual annotations,
