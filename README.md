@@ -46,7 +46,7 @@ conda env create -f environment.yml
 conda activate pv-registry-audit
 ```
 
-Then fetch the replication dataset from **<https://doi.org/[DOI-DATA]>** and
+Then fetch the replication dataset from **<https://doi.org/10.5281/zenodo.22729786>** and
 unpack it. Either put it at `data/` inside the clone, which needs no further
 configuration, or put it anywhere and point one variable at it:
 
@@ -182,6 +182,7 @@ pip install bayesian-pv-census
 | Mapping algorithm | <https://github.com/gabrielkasmi/deeppvmapper> |
 | Annotation tooling | <https://github.com/gabrielkasmi/pv-annotation> |
 | Statistical core | <https://github.com/gabrielkasmi/bayesian-pv-census>, <https://doi.org/10.5281/zenodo.21921771> |
+| Replication dataset | <https://doi.org/10.5281/zenodo.22729786> |
 
 ## Citation
 

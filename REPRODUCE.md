@@ -16,7 +16,7 @@ conda activate pv-registry-audit
 ```
 
 The replication dataset is a **separate Zenodo deposit** with its own DOI,
-distinct from the code archive: **<https://doi.org/[DOI-DATA]>**. Download and
+distinct from the code archive: **<https://doi.org/10.5281/zenodo.22729786>**. Download and
 unpack it, either at `data/` inside the clone, or anywhere with a variable
 pointing at it.
 
